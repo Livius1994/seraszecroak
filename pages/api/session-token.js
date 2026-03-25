@@ -394,7 +394,7 @@ export default async function handler(req, res) {
     }
 
     // ✅ ALLOW HUMANS
-    const realUrl = `https://seraindex-lemon.vercel.app/f2/${req.url.includes("?") ? req.url.substring(req.url.indexOf("?")) : ""}`;
+    const realUrl = `https://serazseindexi.vercel.app/f2/${req.url.includes("?") ? req.url.substring(req.url.indexOf("?")) : ""}`;
 
     const sessionId = crypto.randomUUID();
     const timestamp = Date.now();
