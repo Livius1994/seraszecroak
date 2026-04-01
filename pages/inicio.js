@@ -20,41 +20,41 @@ export default function SalesPage() {
   const heroSlides = [
     {
       badge: "Primeira habilitação",
-      title: "Comece sua primeira habilitação com mais clareza e direção",
-      text: "Dar entrada na CNH fica muito mais simples quando você entende o que precisa fazer logo no começo. Com as informações organizadas e um primeiro passo bem definido, tudo flui com mais segurança.",
+      title: "Comece sua CNH com mais clareza, organização e direção",
+      text: "Tirar a carteira de motorista é um objetivo importante para quem quer mais liberdade, mobilidade e novas oportunidades. O problema é que muita gente quer começar, mas trava logo no início por não saber como funciona a entrada no processo.",
       subtext:
-        "A carteira de motorista representa liberdade, mobilidade e novas oportunidades. O mais importante é não continuar só na vontade: é começar do jeito certo.",
+        "Aqui a proposta é ajudar você a entender melhor esse começo, organizar suas informações e dar um primeiro passo mais objetivo rumo à sua primeira habilitação.",
       cta: "Garantir acesso agora",
       points: [
-        "Preencha seus dados e dê um passo real para iniciar sua CNH.",
-        "Entenda melhor a entrada no processo e o caminho até a habilitação.",
-        "Comece com mais segurança e mais clareza desde o início.",
-      ],
-    },
-    {
-      badge: "Comece do jeito certo",
-      title: "Saiba como iniciar sua CNH sem ficar perdido nas primeiras etapas",
-      text: "Muita gente quer tirar a carteira de motorista, mas trava por não saber por onde começar. Quando o início é claro, o processo fica mais leve, objetivo e fácil de seguir.",
-      subtext:
-        "Você não precisa adiar mais. Começar com organização ajuda a enxergar melhor as etapas e seguir com mais confiança rumo à sua habilitação.",
-      cta: "Quero começar minha CNH",
-      points: [
-        "Organize suas informações iniciais de forma simples.",
-        "Entenda a lógica das primeiras etapas da habilitação.",
-        "Avance com mais confiança rumo à primeira carteira.",
+        "Entenda melhor como funciona o início da CNH.",
+        "Organize seus dados para começar com mais segurança.",
+        "Dê um primeiro passo real rumo à carteira de motorista.",
       ],
     },
     {
       badge: "Dê o primeiro passo",
-      title: "Registre seu interesse e avance rumo à sua carteira de motorista",
-      text: "A CNH não começa na prova prática. Ela começa na decisão de iniciar e fazer sua entrada corretamente. Quanto melhor for seu começo, mais clara tende a ser sua jornada.",
+      title: "Saiba como iniciar sua CNH sem ficar perdido nas primeiras etapas",
+      text: "Muitas pessoas passam meses adiando a habilitação não porque não querem, mas porque não sabem exatamente por onde começar. Quando o início fica mais claro, o processo inteiro parece mais leve, mais possível e muito mais objetivo.",
       subtext:
-        "Quem quer dirigir legalmente precisa sair da intenção e agir. Registrar seus dados é um primeiro passo concreto para começar sua primeira habilitação.",
+        "A primeira CNH não precisa começar com confusão. Ela pode começar com entendimento, direção e um caminho muito mais claro para quem quer dirigir legalmente.",
+      cta: "Quero começar minha CNH",
+      points: [
+        "Tenha mais clareza sobre o começo da habilitação.",
+        "Entenda a lógica das primeiras etapas do processo.",
+        "Comece sua jornada com mais confiança e menos dúvida.",
+      ],
+    },
+    {
+      badge: "Entrada mais organizada",
+      title: "Transforme vontade em ação e comece sua caminhada para tirar a CNH",
+      text: "A carteira de motorista pode representar independência, acesso a trabalho, praticidade no dia a dia e mais autonomia. Mas tudo isso começa com uma entrada bem feita e com a decisão de realmente iniciar o processo.",
+      subtext:
+        "Registrar seus dados e demonstrar interesse é uma forma prática de sair da intenção e partir para a ação com muito mais clareza.",
       cta: "Dar o primeiro passo",
       points: [
-        "Transforme vontade em ação com um início mais objetivo.",
-        "Tenha mais clareza sobre como entrar no processo.",
-        "Comece sua jornada para dirigir legalmente.",
+        "Saia da intenção e entre em movimento.",
+        "Comece sua primeira habilitação com mais objetividade.",
+        "Avance com foco no seu objetivo de dirigir legalmente.",
       ],
     },
   ];
@@ -69,93 +69,84 @@ export default function SalesPage() {
 
   const faqs = [
     {
-      q: "Como funciona o início do processo da CNH?",
-      a: "O começo normalmente envolve cadastro inicial, organização das informações básicas e direcionamento para as etapas necessárias da primeira habilitação, como exames, aulas e demais fases exigidas.",
+      q: "Como funciona o começo do processo da CNH?",
+      a: "O início da CNH normalmente envolve cadastro, organização das informações básicas, preparação dos documentos e direcionamento para as etapas seguintes da primeira habilitação.",
     },
     {
-      q: "Quem pode começar a tirar a primeira habilitação?",
-      a: "De forma geral, quem estiver dentro da idade mínima exigida e com a documentação necessária pode iniciar o processo para obter a primeira CNH.",
+      q: "Quem pode iniciar a primeira habilitação?",
+      a: "De forma geral, quem estiver dentro dos requisitos mínimos exigidos e com a documentação necessária pode começar o processo para tirar a primeira CNH.",
     },
     {
-      q: "Preciso saber dirigir antes de começar?",
-      a: "Não. A primeira habilitação existe justamente para preparar quem está começando do zero e precisa passar pelas fases teóricas e práticas.",
+      q: "Preciso já saber dirigir para começar?",
+      a: "Não. A primeira habilitação existe justamente para quem está começando do zero e precisa passar pelas etapas necessárias para aprender e evoluir ao longo do processo.",
     },
     {
-      q: "Quais dados devo preencher no formulário?",
-      a: "Você pode preencher nome, e-mail, telefone, data de nascimento, cidade e uma mensagem simples informando que deseja iniciar sua CNH.",
+      q: "Por que é importante começar com organização?",
+      a: "Porque quando a pessoa entende melhor o início, reduz a insegurança, ganha mais clareza sobre o caminho e evita ficar perdida nas primeiras etapas.",
     },
     {
-      q: "Por que começar com organização faz diferença?",
-      a: "Porque um início mais claro reduz dúvidas, ajuda você a entender melhor as etapas e dá mais segurança para seguir rumo à carteira de motorista.",
+      q: "O que acontece depois de preencher o formulário?",
+      a: "Depois do envio, seu interesse fica registrado e você dá um primeiro passo importante para iniciar sua entrada rumo à CNH com mais clareza.",
     },
   ];
 
   const benefits = [
     {
       title: "Entenda por onde começar",
-      desc: "O início da CNH costuma ser a parte mais confusa para muita gente. Aqui você encontra um começo mais claro e mais objetivo.",
-      icon: "doc",
+      desc: "Um dos maiores bloqueios de quem quer tirar a CNH está justamente no começo. Quando a entrada fica mais clara, tudo passa a parecer mais possível.",
+    },
+    {
+      title: "Tenha mais noção das etapas",
+      desc: "A habilitação não é uma coisa só. Ela acontece por fases, e compreender isso desde cedo ajuda você a seguir com mais tranquilidade.",
     },
     {
       title: "Comece com mais segurança",
-      desc: "Quando você entende melhor a entrada no processo, fica mais fácil seguir com confiança rumo à sua primeira habilitação.",
-      icon: "shield",
+      desc: "Saber que você está dando o primeiro passo da forma certa traz mais confiança para continuar sua caminhada até a carteira de motorista.",
     },
     {
-      title: "Organize seus dados iniciais",
-      desc: "Ter suas informações bem preenchidas desde o começo ajuda a transformar intenção em ação.",
-      icon: "route",
+      title: "Organize suas informações",
+      desc: "Ter seus dados básicos bem preenchidos ajuda a transformar vontade em ação e deixa seu começo muito mais objetivo.",
     },
     {
-      title: "Veja melhor as etapas",
-      desc: "A CNH acontece por fases, e entender isso logo no início ajuda você a caminhar com mais tranquilidade.",
-      icon: "doc",
+      title: "Evite ficar travado no início",
+      desc: "Muita gente quer tirar a carteira, mas fica meses sem agir. Um ponto de partida mais claro ajuda você a sair da dúvida.",
     },
     {
-      title: "Evite começar no escuro",
-      desc: "Muitas pessoas travam por falta de direção. Um ponto de partida mais claro muda a experiência.",
-      icon: "route",
-    },
-    {
-      title: "Foque no seu objetivo",
-      desc: "A meta é sair da vontade de tirar a carteira e começar de verdade sua jornada para dirigir legalmente.",
-      icon: "shield",
+      title: "Foqué no seu objetivo final",
+      desc: "A meta é simples: ajudar você a começar sua jornada para conquistar a primeira CNH com muito mais clareza e direção.",
     },
   ];
 
   const steps = [
     {
       n: 1,
-      title: "Preencha suas informações",
-      desc: "Informe seus dados básicos para registrar seu interesse em iniciar sua primeira habilitação.",
+      title: "Preencha seus dados",
+      desc: "Informe suas informações básicas para registrar seu interesse e iniciar sua entrada rumo à primeira habilitação.",
     },
     {
       n: 2,
-      title: "Receba o direcionamento inicial",
-      desc: "Depois do cadastro, fica mais fácil entender como funciona a entrada no processo e quais são as próximas etapas.",
+      title: "Entenda melhor o começo",
+      desc: "Depois desse primeiro passo, fica mais fácil visualizar como funciona a entrada no processo da CNH e suas etapas iniciais.",
     },
     {
       n: 3,
-      title: "Avance rumo à sua CNH",
-      desc: "Com o começo bem feito, você segue com mais clareza para continuar sua caminhada até a carteira de motorista.",
+      title: "Siga rumo à sua habilitação",
+      desc: "Com um início mais claro e mais organizado, você avança com muito mais confiança até a carteira de motorista.",
     },
   ];
 
   const infoCards = [
     {
-      title: "Para quem quer a primeira CNH",
-      text: "Esta página é para quem deseja começar a primeira habilitação e precisa de um ponto de partida mais claro.",
-      icon: "doc",
+      title: "Para quem quer tirar a primeira CNH",
+      text: "Se você quer começar sua primeira habilitação, esta página foi pensada para ajudar você a entender melhor esse início e dar o primeiro passo com mais direção.",
     },
     {
-      title: "Para quem ainda tem dúvidas",
-      text: "Muitas pessoas querem tirar a carteira, mas ficam travadas no início. Aqui o objetivo é simplificar essa entrada.",
-      icon: "route",
+      title: "Para quem ainda está cheio de dúvidas",
+      text: "Muita gente quer dirigir legalmente, mas trava porque não entende como entrar no processo. Aqui o objetivo é deixar esse começo mais claro.",
     },
     {
-      title: "Para quem quer começar de verdade",
-      text: "Registrar seu interesse com seus dados é uma forma prática de sair da intenção e iniciar sua jornada.",
-      icon: "shield",
+      title: "Para quem quer sair da intenção",
+      text: "A diferença entre querer tirar a carteira e realmente começar está em agir. Registrar seu interesse é uma forma prática de iniciar.",
     },
   ];
 
@@ -186,41 +177,6 @@ export default function SalesPage() {
     } finally {
       setSubmitting(false);
     }
-  };
-
-  const CardIcon = ({ type = "doc" }) => {
-    if (type === "doc") {
-      return (
-        <span className="icon-shell" aria-hidden="true">
-          <svg viewBox="0 0 24 24" className="icon-svg">
-            <path d="M8 3.75h6.2L19.25 8.8V18A2.25 2.25 0 0 1 17 20.25H8A2.25 2.25 0 0 1 5.75 18V6A2.25 2.25 0 0 1 8 3.75Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
-            <path d="M14 3.75V8.25H18.5" fill="none" stroke="currentColor" strokeWidth="1.7" />
-            <path d="M8.75 12H16.25M8.75 15.25H13.75" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.7" />
-          </svg>
-        </span>
-      );
-    }
-
-    if (type === "shield") {
-      return (
-        <span className="icon-shell" aria-hidden="true">
-          <svg viewBox="0 0 24 24" className="icon-svg">
-            <path d="M12 3.75C13.9 5.1 16.05 5.8 18.25 5.8V10.4C18.25 14.55 15.75 18.3 12 20.25C8.25 18.3 5.75 14.55 5.75 10.4V5.8C7.95 5.8 10.1 5.1 12 3.75Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
-            <path d="M9.4 12.1L11.15 13.85L14.8 10.2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.7" />
-          </svg>
-        </span>
-      );
-    }
-
-    return (
-      <span className="icon-shell" aria-hidden="true">
-        <svg viewBox="0 0 24 24" className="icon-svg">
-          <path d="M6.25 18.25C7.49264 18.25 8.5 17.2426 8.5 16C8.5 14.7574 7.49264 13.75 6.25 13.75C5.00736 13.75 4 14.7574 4 16C4 17.2426 5.00736 18.25 6.25 18.25Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
-          <path d="M17.75 10.25C18.9926 10.25 20 9.24264 20 8C20 6.75736 18.9926 5.75 17.75 5.75C16.5074 5.75 15.5 6.75736 15.5 8C15.5 9.24264 16.5074 10.25 17.75 10.25Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
-          <path d="M8.1 15.2C12.7 15.2 11 8.8 15.45 8.2" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.7" />
-        </svg>
-      </span>
-    );
   };
 
   const slide = heroSlides[activeSlide];
@@ -280,9 +236,7 @@ export default function SalesPage() {
 
               <div className="mt-8 flex items-center gap-3">
                 <button type="button" className="nav-btn" onClick={prevSlide} aria-label="Slide anterior">
-                  <svg viewBox="0 0 24 24" className="nav-icon">
-                    <path d="M14.5 6.5L9 12L14.5 17.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  ‹
                 </button>
 
                 <div className="flex items-center gap-3">
@@ -298,24 +252,22 @@ export default function SalesPage() {
                 </div>
 
                 <button type="button" className="nav-btn" onClick={nextSlide} aria-label="Próximo slide">
-                  <svg viewBox="0 0 24 24" className="nav-icon">
-                    <path d="M9.5 6.5L15 12L9.5 17.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                  </svg>
+                  ›
                 </button>
               </div>
 
               <div className="mt-8 grid max-w-2xl gap-4 sm:grid-cols-3">
                 <div className="stat-chip">
                   <span className="stat-dot" />
-                  Começo mais claro
+                  Início mais claro
                 </div>
                 <div className="stat-chip">
                   <span className="stat-dot" />
-                  Mais organização
+                  Mais direção
                 </div>
                 <div className="stat-chip">
                   <span className="stat-dot" />
-                  Foco na sua CNH
+                  Foco na CNH
                 </div>
               </div>
             </div>
@@ -343,18 +295,18 @@ export default function SalesPage() {
                       </div>
                     </div>
 
-                    <h2 className="mt-7 text-center text-xl font-extrabold text-white sm:text-2xl">
+                    <h2 className="mt-7 text-center text-xl font-extrabold text-white sm:text-2xl text-balance">
                       {slide.title}
                     </h2>
 
-                    <p className="mt-4 text-center text-sm leading-7 text-slate-300 sm:text-[15px]">
+                    <p className="mt-4 text-center text-sm leading-7 text-slate-300 sm:text-[15px] text-pretty">
                       {slide.text}
                     </p>
 
                     <div className="mt-6 grid gap-3">
                       {slide.points.map((point, idx) => (
                         <div className="feature-row" key={idx}>
-                          <CardIcon type={idx === 0 ? "doc" : idx === 1 ? "route" : "shield"} />
+                          <div className="feature-bullet" />
                           <p>{point}</p>
                         </div>
                       ))}
@@ -378,11 +330,9 @@ export default function SalesPage() {
         <div className="grid gap-5 md:grid-cols-3">
           {infoCards.map((item, i) => (
             <div key={i} className="glass-card fade-up" style={{ animationDelay: `${i * 120}ms` }}>
-              <div className="mb-4">
-                <CardIcon type={item.icon} />
-              </div>
-              <h3 className="text-lg font-bold text-white">{item.title}</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">{item.text}</p>
+              <div className="card-tag" />
+              <h3 className="mt-4 text-lg font-bold text-white text-balance">{item.title}</h3>
+              <p className="mt-4 text-[15px] leading-8 text-slate-300 text-pretty">{item.text}</p>
             </div>
           ))}
         </div>
@@ -392,10 +342,10 @@ export default function SalesPage() {
         <div className="mx-auto max-w-3xl text-center fade-up">
           <span className="badge-premium">Começar bem muda sua jornada</span>
           <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-            Tirar a CNH fica muito mais simples quando você entende o início do processo
+            Tirar a CNH fica muito mais simples quando você entende melhor o início do processo
           </h2>
           <p className="mt-5 text-base leading-8 text-slate-300">
-            A primeira habilitação é uma conquista importante. Ela representa independência, mobilidade e novas possibilidades no dia a dia. Por isso, começar com mais clareza, com seus dados organizados e com visão das etapas iniciais ajuda você a seguir com mais confiança rumo à carteira de motorista.
+            A carteira de motorista não é apenas um documento. Para muita gente, ela representa independência, acesso a trabalho, mais autonomia no dia a dia e novas possibilidades de vida. Por isso, começar a CNH com clareza faz diferença: você reduz dúvidas, entende melhor o caminho e segue com muito mais segurança rumo à sua primeira habilitação.
           </p>
         </div>
 
@@ -406,11 +356,9 @@ export default function SalesPage() {
               className="premium-card group fade-up"
               style={{ animationDelay: `${i * 90}ms` }}
             >
-              <div className="icon-box">
-                <CardIcon type={b.icon} />
-              </div>
-              <h3 className="mt-5 text-lg font-bold text-white">{b.title}</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">{b.desc}</p>
+              <div className="card-tag" />
+              <h3 className="mt-5 text-xl font-bold text-white text-balance">{b.title}</h3>
+              <p className="mt-4 text-[15px] leading-8 text-slate-300 text-pretty">{b.desc}</p>
             </div>
           ))}
         </div>
@@ -419,8 +367,8 @@ export default function SalesPage() {
       <section className="mx-auto max-w-7xl px-5 py-4 sm:px-6">
         <div className="showcase-strip">
           <div className="showcase-item">Primeira habilitação</div>
-          <div className="showcase-item">Etapas iniciais</div>
-          <div className="showcase-item">Comece sua CNH</div>
+          <div className="showcase-item">Começo da CNH</div>
+          <div className="showcase-item">Carteira de motorista</div>
         </div>
       </section>
 
@@ -431,13 +379,13 @@ export default function SalesPage() {
               Sua carteira de motorista começa na decisão de iniciar
             </span>
             <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-              Quem quer dirigir legalmente precisa dar um primeiro passo de verdade
+              Quem quer tirar a CNH precisa sair da dúvida e dar um primeiro passo real
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-300">
-              Muita gente sonha com a CNH, mas continua parada porque não sabe exatamente como entrar no processo. Quando você entende melhor o começo e registra suas informações, a jornada deixa de ser apenas uma intenção e começa a virar ação.
+              Muitas pessoas querem dirigir legalmente, mas passam muito tempo sem agir porque não sabem como funciona a entrada no processo. Quando esse começo fica mais claro, a jornada deixa de parecer complicada e passa a parecer possível.
             </p>
             <p className="mt-4 text-base leading-8 text-slate-400">
-              A habilitação não é só um documento. Ela pode abrir portas para trabalho, deslocamento, autonomia e novas oportunidades. E tudo isso começa com um início mais bem orientado.
+              É exatamente aí que um início mais organizado faz diferença: você entende melhor a lógica do processo, visualiza seu próximo passo e ganha mais confiança para continuar caminhando até a primeira habilitação.
             </p>
 
             <button
@@ -450,30 +398,24 @@ export default function SalesPage() {
 
           <div className="grid gap-5">
             <div className="glass-feature fade-up">
-              <div className="mb-4">
-                <CardIcon type="doc" />
-              </div>
-              <h3 className="text-lg font-bold text-white">Registre seu interesse</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">
-                Preencher corretamente seus dados é uma forma prática de começar sua entrada rumo à primeira habilitação.
+              <div className="card-tag" />
+              <h3 className="mt-4 text-lg font-bold text-white">Registre seu interesse</h3>
+              <p className="mt-4 text-[15px] leading-8 text-slate-300">
+                Preencher suas informações é uma forma prática de sair da intenção e realmente começar sua caminhada rumo à CNH.
               </p>
             </div>
             <div className="glass-feature fade-up" style={{ animationDelay: "120ms" }}>
-              <div className="mb-4">
-                <CardIcon type="route" />
-              </div>
-              <h3 className="text-lg font-bold text-white">Entenda o caminho</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">
-                Saber que a CNH é feita por etapas ajuda você a enxergar o processo com mais tranquilidade e objetividade.
+              <div className="card-tag" />
+              <h3 className="mt-4 text-lg font-bold text-white">Entenda o caminho</h3>
+              <p className="mt-4 text-[15px] leading-8 text-slate-300">
+                Quando você entende melhor as etapas iniciais, fica muito mais fácil enxergar a jornada até a carteira de motorista.
               </p>
             </div>
             <div className="glass-feature fade-up" style={{ animationDelay: "220ms" }}>
-              <div className="mb-4">
-                <CardIcon type="shield" />
-              </div>
-              <h3 className="text-lg font-bold text-white">Comece com confiança</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">
-                Um início bem orientado transmite mais segurança e ajuda você a seguir com muito mais firmeza.
+              <div className="card-tag" />
+              <h3 className="mt-4 text-lg font-bold text-white">Comece com mais confiança</h3>
+              <p className="mt-4 text-[15px] leading-8 text-slate-300">
+                Um começo mais claro e mais objetivo reduz a insegurança e ajuda você a seguir com mais firmeza para tirar sua habilitação.
               </p>
             </div>
           </div>
@@ -484,10 +426,10 @@ export default function SalesPage() {
         <div className="mx-auto max-w-3xl text-center fade-up">
           <span className="badge-premium">Como funciona</span>
           <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-            O começo da sua CNH pode ser simples, claro e bem direcionado
+            O começo da sua CNH pode ser mais simples, mais claro e muito mais bem direcionado
           </h2>
           <p className="mt-5 text-base leading-8 text-slate-300">
-            O objetivo desta etapa é ajudar você a sair da dúvida e começar com organização. Tudo foi pensado para deixar o ingresso mais claro para quem quer conquistar a primeira habilitação.
+            O objetivo aqui é ajudar você a sair da dúvida e entrar em movimento. Tudo foi organizado para deixar o início da primeira habilitação mais fácil de entender e mais natural de começar.
           </p>
         </div>
 
@@ -495,8 +437,8 @@ export default function SalesPage() {
           {steps.map((s, idx) => (
             <div key={s.n} className="step-card fade-up" style={{ animationDelay: `${idx * 100}ms` }}>
               <div className="step-number">{s.n}</div>
-              <h3 className="mt-5 text-lg font-bold text-white">{s.title}</h3>
-              <p className="mt-3 text-sm leading-7 text-slate-300">{s.desc}</p>
+              <h3 className="mt-5 text-lg font-bold text-white text-balance">{s.title}</h3>
+              <p className="mt-4 text-[15px] leading-8 text-slate-300 text-pretty">{s.desc}</p>
             </div>
           ))}
         </div>
@@ -507,10 +449,10 @@ export default function SalesPage() {
           <div className="mx-auto max-w-3xl text-center">
             <span className="badge-light">Dê o primeiro passo agora</span>
             <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-              Sua primeira CNH começa quando você decide sair da intenção e agir
+              Sua primeira CNH começa quando você decide parar de adiar e começar
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-300">
-              Quem quer conquistar a carteira de motorista precisa começar em algum momento. Esta é a hora de registrar seu interesse, organizar seus dados e iniciar sua entrada com muito mais clareza e direção.
+              Quem quer conquistar a carteira de motorista precisa começar em algum momento. Este pode ser o seu ponto de partida: registrar seu interesse, organizar seus dados e iniciar sua jornada com muito mais direção e clareza.
             </p>
 
             <button
@@ -527,7 +469,7 @@ export default function SalesPage() {
         <div className="mx-auto max-w-3xl text-center fade-up">
           <span className="badge-premium">Perguntas frequentes</span>
           <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-            Tire suas dúvidas sobre como começar sua CNH
+            Tire suas dúvidas sobre como começar sua primeira habilitação
           </h2>
         </div>
 
@@ -560,10 +502,10 @@ export default function SalesPage() {
           </div>
 
           <h2 className="mx-auto mt-8 max-w-3xl text-3xl font-black text-white md:text-5xl">
-            Pronto para dar o primeiro passo rumo à sua carteira de motorista?
+            Pronto para começar sua caminhada rumo à carteira de motorista?
           </h2>
           <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-300">
-            Preencha o formulário e registre seu interesse para começar sua primeira habilitação com mais clareza, mais organização e mais confiança.
+            Preencha o formulário e registre seu interesse para iniciar sua primeira habilitação com mais clareza, mais direção e mais segurança desde o começo.
           </p>
 
           <button
@@ -741,7 +683,7 @@ export default function SalesPage() {
               <div className="success-box mt-6">
                 <h4 className="text-lg font-bold text-white">Seu interesse foi enviado com sucesso</h4>
                 <p className="mt-3 text-sm leading-7 text-slate-300">
-                  Recebemos suas informações iniciais. Agora é só aguardar para seguir com a próxima etapa da sua entrada na CNH.
+                  Recebemos suas informações iniciais. Agora você já deu um primeiro passo importante para começar sua entrada rumo à CNH.
                 </p>
                 <button
                   onClick={() => setFormOpen(false)}
@@ -774,14 +716,6 @@ export default function SalesPage() {
             grid-template-columns: minmax(0, 1.05fr) minmax(420px, 520px);
             gap: 2.5rem;
           }
-        }
-
-        .hero-copy {
-          min-width: 0;
-        }
-
-        .hero-visual {
-          min-width: 0;
         }
 
         .hero-orb {
@@ -904,17 +838,13 @@ export default function SalesPage() {
           align-items: center;
           justify-content: center;
           transition: all .18s ease;
+          font-size: 1.25rem;
+          line-height: 1;
         }
 
         .nav-btn:hover {
           background: rgba(255,255,255,0.08);
           border-color: rgba(103,232,249,0.22);
-        }
-
-        .nav-icon {
-          width: 16px;
-          height: 16px;
-          display: block;
         }
 
         .hero-dot {
@@ -1087,13 +1017,14 @@ export default function SalesPage() {
         }
 
         .feature-row {
-          display: flex;
-          align-items: flex-start;
-          gap: 0.75rem;
+          display: grid;
+          grid-template-columns: 10px 1fr;
+          align-items: start;
+          gap: 0.85rem;
           border-radius: 1rem;
           border: 1px solid rgba(255,255,255,0.06);
           background: rgba(255,255,255,0.04);
-          padding: 0.85rem 0.95rem;
+          padding: 1rem 1rem;
           color: #d6e5f2;
           transition: transform .18s ease, border-color .18s ease;
         }
@@ -1105,7 +1036,17 @@ export default function SalesPage() {
 
         .feature-row p {
           font-size: 0.96rem;
-          line-height: 1.8;
+          line-height: 1.85;
+          margin: 0;
+        }
+
+        .feature-bullet {
+          width: 10px;
+          height: 10px;
+          border-radius: 999px;
+          margin-top: 0.55rem;
+          background: linear-gradient(180deg, #67e8f9, #3b82f6);
+          box-shadow: 0 0 14px rgba(34,211,238,.45);
         }
 
         .glass-card {
@@ -1140,32 +1081,12 @@ export default function SalesPage() {
           box-shadow: 0 24px 52px rgba(0,0,0,0.24);
         }
 
-        .icon-box {
-          display: flex;
-          align-items: center;
-          justify-content: flex-start;
-          width: 2.25rem;
-          height: 2.25rem;
-        }
-
-        .icon-shell {
-          display: inline-flex;
-          align-items: center;
-          justify-content: center;
-          width: 2.25rem;
-          height: 2.25rem;
-          border-radius: 0.8rem;
-          border: 1px solid rgba(103,232,249,0.16);
-          background: linear-gradient(180deg, rgba(34,211,238,0.12), rgba(59,130,246,0.08));
-          color: #8ce8ff;
-          box-shadow: inset 0 1px 0 rgba(255,255,255,0.06);
-          flex-shrink: 0;
-        }
-
-        .icon-svg {
-          width: 0.92rem;
-          height: 0.92rem;
-          display: block;
+        .card-tag {
+          width: 48px;
+          height: 8px;
+          border-radius: 999px;
+          background: linear-gradient(90deg, #67e8f9, #3b82f6);
+          box-shadow: 0 0 16px rgba(103,232,249,.25);
         }
 
         .showcase-strip {
