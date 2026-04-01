@@ -198,7 +198,7 @@ export default function Servicos() {
 
         <footer className="border-t border-white/10 bg-slate-950/70">
           <div className="mx-auto flex max-w-7xl flex-col gap-6 px-5 py-10 sm:px-6 md:flex-row md:items-center md:justify-between">
-            <p className="text-sm text-slate-400">© 2026 Benefic Verific. Todos os direitos reservados.</p>
+            <p className="text-sm text-slate-400">© 2026 Inscrição CNH. Todos os direitos reservados.</p>
             <nav className="flex flex-wrap gap-5 text-sm text-slate-400">
               <a href="/politica-de-privacidade" className="transition hover:text-white">Política de Privacidade</a>
               <a href="/termos-de-uso" className="transition hover:text-white">Termos de Uso</a>
