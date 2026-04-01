@@ -73,7 +73,7 @@ export default function Servicos() {
   return (
     <>
       <Head>
-        <title>Serviços — Benefic Verific</title>
+        <title>Serviços — Inscrição CNH</title>
         <meta
           name="description"
           content="Orientações administrativas com checklist, modelos e organização de protocolos em um fluxo claro."
@@ -85,10 +85,10 @@ export default function Servicos() {
           <div className="mx-auto flex max-w-7xl items-center justify-between px-5 py-4 sm:px-6">
             <a href="/inicio" className="flex items-center gap-3">
               <div className="cnh-mark">
-                <span>BV</span>
+                <span>CNH</span>
               </div>
               <div>
-                <p className="text-sm font-semibold text-white">Benefic Verific</p>
+                <p className="text-sm font-semibold text-white">Inscrição CNH</p>
                 <p className="text-xs text-slate-400">Orientações administrativas</p>
               </div>
             </a>
