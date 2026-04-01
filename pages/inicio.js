@@ -17,51 +17,51 @@ export default function SalesPage() {
 
   const faqs = [
     {
-      q: "Como funciona o ingresso para iniciar a CNH?",
-      a: "Você preenche seu formulário com os dados iniciais e recebe as informações sobre as próximas etapas do processo, documentação necessária, organização do cadastro e instruções para dar entrada.",
+      q: "Como funciona o início do processo da CNH?",
+      a: "O início normalmente envolve cadastro, apresentação de documentos, análise inicial e encaminhamento para as etapas exigidas, como exames, aulas teóricas e aulas práticas, conforme as regras aplicáveis.",
     },
     {
-      q: "Quem pode iniciar o processo da CNH?",
-      a: "De forma geral, pessoas em idade permitida para habilitação e com documentação básica em dia podem iniciar o processo, seguindo as exigências do órgão responsável e da auto escola.",
+      q: "Quem pode começar o processo da CNH?",
+      a: "De forma geral, quem estiver dentro da idade mínima exigida e com a documentação necessária pode dar início ao processo para obter a primeira habilitação.",
     },
     {
-      q: "Preciso já saber dirigir para começar?",
-      a: "Não. O início do processo serve justamente para organizar sua entrada, entender as etapas e se preparar corretamente para as fases teóricas e práticas.",
+      q: "Preciso saber dirigir antes de começar?",
+      a: "Não. O processo da CNH existe justamente para preparar o aluno desde a base, com orientação teórica, prática e acompanhamento em cada fase.",
     },
     {
-      q: "Depois de preencher, o que acontece?",
-      a: "Após o envio, seus dados entram para análise inicial e você recebe o direcionamento com os próximos passos para continuar o ingresso no processo da CNH.",
+      q: "Quais informações preciso preencher no formulário?",
+      a: "Você pode informar nome, e-mail, telefone, data de nascimento, cidade e uma mensagem simples dizendo que deseja iniciar sua CNH.",
     },
     {
-      q: "Essa página é para quem quer começar do zero?",
-      a: "Sim. Ela foi organizada especialmente para quem quer entender melhor como funciona a entrada na CNH e deseja iniciar de forma mais clara e organizada.",
+      q: "Depois de preencher, qual é o próximo passo?",
+      a: "Após o envio, você segue para o contato inicial e recebe a orientação para entender melhor as próximas etapas necessárias para ingressar no processo.",
     },
   ];
 
   const benefits = [
     {
-      title: "Entrada mais organizada",
-      desc: "Saiba exatamente quais dados reunir, quais etapas vêm primeiro e como se preparar para iniciar seu processo sem confusão.",
+      title: "Entenda por onde começar",
+      desc: "Muitas pessoas querem tirar a CNH, mas ficam perdidas no início. Aqui você encontra uma entrada mais clara para começar com mais organização.",
     },
     {
-      title: "Explicação clara do processo",
-      desc: "Entenda em linguagem simples como funciona o começo da CNH, desde o cadastro até a sequência das próximas fases.",
+      title: "Saiba quais dados preparar",
+      desc: "Antes de iniciar, é importante ter as informações básicas organizadas para facilitar o andamento do processo.",
     },
     {
-      title: "Menos dúvidas no início",
-      desc: "Uma página feita para orientar quem quer ingressar na CNH e não sabe por onde começar.",
+      title: "Tenha visão das etapas",
+      desc: "Cadastro, orientações iniciais, etapas obrigatórias e progressão até a habilitação: tudo começa com uma entrada bem feita.",
     },
     {
-      title: "Formulário rápido",
-      desc: "Envie seus dados de forma simples e entre no fluxo inicial para receber as orientações necessárias.",
+      title: "Começo mais seguro",
+      desc: "Ter clareza desde o início evita dúvidas, reduz insegurança e ajuda você a seguir com mais confiança.",
     },
     {
-      title: "Mais segurança para começar",
-      desc: "Em vez de ficar perdido, você já inicia com uma estrutura organizada e uma visão completa do que fazer.",
+      title: "Mais objetividade",
+      desc: "Ao preencher corretamente seus dados, você já dá um primeiro passo importante para iniciar seu caminho rumo à CNH.",
     },
     {
-      title: "Foco total em ingresso",
-      desc: "Todo o conteúdo desta página foi pensado para o início da jornada de quem quer conquistar a habilitação.",
+      title: "Foco em primeira habilitação",
+      desc: "A proposta desta página é ajudar quem deseja começar sua jornada para conquistar a carteira de motorista.",
     },
   ];
 
@@ -69,32 +69,32 @@ export default function SalesPage() {
     {
       n: 1,
       title: "Preencha seus dados",
-      desc: "Informe nome, e-mail, telefone, data de nascimento, cidade e uma mensagem simples para iniciar seu cadastro de interesse.",
+      desc: "Informe nome, e-mail, telefone, data de nascimento, cidade e uma mensagem simples para registrar seu interesse em iniciar a CNH.",
     },
     {
       n: 2,
       title: "Receba a orientação inicial",
-      desc: "Após o envio, você entra no fluxo de contato inicial para entender melhor como funciona o ingresso no processo da CNH.",
+      desc: "Depois do envio, você entra na etapa inicial de contato para entender melhor como funciona o começo do processo.",
     },
     {
       n: 3,
-      title: "Siga as próximas etapas",
-      desc: "Com as orientações iniciais em mãos, você consegue avançar com mais clareza e organização no caminho da sua habilitação.",
+      title: "Avance para as próximas fases",
+      desc: "Com a orientação recebida, você consegue seguir com mais clareza para as etapas necessárias da sua habilitação.",
     },
   ];
 
   const infoCards = [
     {
-      title: "Para quem é esta página?",
-      text: "Esta página é ideal para quem deseja começar o processo da CNH, mas ainda está com dúvidas sobre como funciona a entrada, quais dados precisa separar e quais são os primeiros passos.",
+      title: "Primeira habilitação",
+      text: "Se você quer conquistar sua primeira CNH, o ideal é começar entendendo melhor a entrada no processo e organizando suas informações desde o início.",
     },
     {
-      title: "O que você encontra aqui?",
-      text: "Você encontra uma explicação objetiva sobre o ingresso na CNH, uma estrutura mais organizada das etapas iniciais e um formulário para dar início ao seu contato.",
+      title: "Mais clareza no começo",
+      text: "O início costuma gerar muitas dúvidas. Ter uma estrutura mais direta ajuda a entender melhor o caminho até a habilitação.",
     },
     {
-      title: "Por que preencher o formulário?",
-      text: "Porque assim você formaliza seu interesse e já entra com as informações básicas necessárias para ser direcionado ao início do processo.",
+      title: "Ingresso no processo",
+      text: "O formulário funciona como uma etapa inicial para quem deseja começar e ter um direcionamento mais claro sobre a CNH.",
     },
   ];
 
@@ -117,6 +117,52 @@ export default function SalesPage() {
     }
   };
 
+  const CardIcon = ({ type = "doc" }) => {
+    if (type === "doc") {
+      return (
+        <span className="icon-shell" aria-hidden="true">
+          <svg viewBox="0 0 24 24" className="icon-svg">
+            <path d="M8 3.75h6.2L19.25 8.8V18A2.25 2.25 0 0 1 17 20.25H8A2.25 2.25 0 0 1 5.75 18V6A2.25 2.25 0 0 1 8 3.75Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
+            <path d="M14 3.75V8.25H18.5" fill="none" stroke="currentColor" strokeWidth="1.7" />
+            <path d="M8.75 12H16.25M8.75 15.25H13.75" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.7" />
+          </svg>
+        </span>
+      );
+    }
+
+    if (type === "shield") {
+      return (
+        <span className="icon-shell" aria-hidden="true">
+          <svg viewBox="0 0 24 24" className="icon-svg">
+            <path d="M12 3.75C13.9 5.1 16.05 5.8 18.25 5.8V10.4C18.25 14.55 15.75 18.3 12 20.25C8.25 18.3 5.75 14.55 5.75 10.4V5.8C7.95 5.8 10.1 5.1 12 3.75Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
+            <path d="M9.4 12.1L11.15 13.85L14.8 10.2" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.7" />
+          </svg>
+        </span>
+      );
+    }
+
+    if (type === "route") {
+      return (
+        <span className="icon-shell" aria-hidden="true">
+          <svg viewBox="0 0 24 24" className="icon-svg">
+            <path d="M6.25 18.25C7.49264 18.25 8.5 17.2426 8.5 16C8.5 14.7574 7.49264 13.75 6.25 13.75C5.00736 13.75 4 14.7574 4 16C4 17.2426 5.00736 18.25 6.25 18.25Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
+            <path d="M17.75 10.25C18.9926 10.25 20 9.24264 20 8C20 6.75736 18.9926 5.75 17.75 5.75C16.5074 5.75 15.5 6.75736 15.5 8C15.5 9.24264 16.5074 10.25 17.75 10.25Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
+            <path d="M8.1 15.2C12.7 15.2 11 8.8 15.45 8.2" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.7" />
+          </svg>
+        </span>
+      );
+    }
+
+    return (
+      <span className="icon-shell" aria-hidden="true">
+        <svg viewBox="0 0 24 24" className="icon-svg">
+          <path d="M12 4.25L19.25 8V16L12 19.75L4.75 16V8L12 4.25Z" fill="none" stroke="currentColor" strokeWidth="1.7" />
+          <path d="M9 12L11.1 14.1L15.25 9.95" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.7" />
+        </svg>
+      </span>
+    );
+  };
+
   return (
     <main className="min-h-screen bg-premium text-slate-100">
       <header className="sticky top-0 z-30 border-b border-white/10 bg-slate-950/65 backdrop-blur-xl">
@@ -128,14 +174,11 @@ export default function SalesPage() {
             </div>
             <div>
               <p className="text-sm font-semibold text-white">Ingresso CNH</p>
-              <p className="text-xs text-slate-400">Página de entrada e orientação inicial</p>
+              <p className="text-xs text-slate-400">Primeira habilitação</p>
             </div>
           </div>
 
-          <button
-            onClick={() => setFormOpen(true)}
-            className="btn-primary"
-          >
+          <button onClick={() => setFormOpen(true)} className="btn-primary">
             Garantir acesso
           </button>
         </div>
@@ -147,35 +190,29 @@ export default function SalesPage() {
         <div className="hero-grid" />
 
         <div className="mx-auto grid max-w-7xl gap-10 px-6 pb-24 pt-16 md:grid-cols-[1.08fr_.92fr] md:items-center">
-          <div>
+          <div className="fade-up">
             <span className="badge-premium">
-              Plataforma de ingresso para primeira habilitação
+              Inicie sua jornada para tirar a carteira de motorista
             </span>
 
             <h1 className="mt-5 max-w-4xl text-4xl font-black tracking-tight text-white md:text-6xl md:leading-[1.02]">
-              Comece sua <span className="text-gradient">CNH</span> com uma experiência mais clara, moderna e organizada
+              Comece sua <span className="text-gradient">CNH</span> com mais clareza, organização e segurança
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-300">
-              Esta página foi desenhada para funcionar como um ponto de entrada premium para quem deseja iniciar o processo da habilitação. Em vez de uma estrutura comum e sem presença visual, você tem aqui um layout mais sofisticado, organizado e pensado para transmitir confiança logo no primeiro contato.
+              Tirar a primeira habilitação é um passo importante. Para muitas pessoas, a maior dificuldade não está nem em começar, mas em entender direito como funciona o início do processo, quais informações preparar e como dar o primeiro passo da forma correta.
             </p>
 
             <p className="mt-4 max-w-2xl text-base leading-8 text-slate-400">
-              O foco é facilitar o ingresso, explicar melhor a proposta, valorizar a ação principal da página e deixar a navegação com cara de produto moderno. Tudo com um visual mais refinado, semelhante a uma interface de app de alto nível adaptada para site.
+              Esta página foi organizada para ajudar quem deseja ingressar na CNH com mais objetividade. Aqui você encontra uma entrada mais clara, entende melhor a lógica inicial do processo e pode preencher seus dados para seguir rumo às próximas etapas.
             </p>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <button
-                onClick={() => setFormOpen(true)}
-                className="btn-primary btn-lg"
-              >
+              <button onClick={() => setFormOpen(true)} className="btn-primary btn-lg">
                 Garantir acesso
               </button>
 
-              <a
-                href="#como-funciona"
-                className="btn-secondary btn-lg"
-              >
+              <a href="#como-funciona" className="btn-secondary btn-lg">
                 Ver como funciona
               </a>
             </div>
@@ -183,21 +220,21 @@ export default function SalesPage() {
             <div className="mt-8 grid max-w-2xl gap-4 sm:grid-cols-3">
               <div className="stat-chip">
                 <span className="stat-dot" />
-                Entrada mais clara
+                Primeiro passo mais claro
               </div>
               <div className="stat-chip">
                 <span className="stat-dot" />
-                Estrutura moderna
+                Entrada mais organizada
               </div>
               <div className="stat-chip">
                 <span className="stat-dot" />
-                Visual premium
+                Foco em habilitação
               </div>
             </div>
           </div>
 
-          <div className="relative">
-            <div className="premium-panel">
+          <div className="relative fade-up-delay">
+            <div className="premium-panel floating-soft">
               <div className="premium-panel-inner">
                 <div className="mock-card">
                   <div className="mock-top">
@@ -206,33 +243,39 @@ export default function SalesPage() {
                     <span className="mock-pill active" />
                   </div>
 
-                  <div className="mx-auto mt-8 flex h-28 w-44 items-center justify-center rounded-[28px] border border-cyan-300/20 bg-white/[0.06] shadow-[inset_0_1px_0_rgba(255,255,255,.08)] backdrop-blur">
-                    <div className="flex flex-col items-center">
-                      <div className="mb-2 text-3xl">🪪</div>
-                      <span className="text-xl font-black tracking-[0.25em] text-cyan-300">CNH</span>
+                  <div className="cnh-card-visual">
+                    <div className="cnh-card-head">
+                      <span className="cnh-card-chip" />
+                      <span className="cnh-card-title">CNH</span>
+                    </div>
+
+                    <div className="cnh-card-lines">
+                      <span />
+                      <span />
+                      <span className="w-sm" />
                     </div>
                   </div>
 
                   <h2 className="mt-8 text-center text-2xl font-extrabold text-white">
-                    Ingresso inteligente para sua habilitação
+                    Seu início para conquistar a carteira de motorista
                   </h2>
 
                   <p className="mt-4 text-center text-sm leading-7 text-slate-300">
-                    Uma página com estética premium, foco em conversão e estrutura visual pensada para valorizar o início da jornada da CNH.
+                    O processo da CNH começa com organização, entendimento das etapas e envio das informações corretas. Quanto mais claro for o começo, melhor tende a ser a jornada até a habilitação.
                   </p>
 
                   <div className="mt-7 grid gap-3">
                     <div className="feature-row">
-                      <span>✦</span>
-                      <p>Design mais sofisticado e com aparência de app moderno.</p>
+                      <CardIcon type="doc" />
+                      <p>Informe seus dados iniciais para registrar seu interesse em começar a CNH.</p>
                     </div>
                     <div className="feature-row">
-                      <span>✦</span>
-                      <p>Cards organizados, melhor contraste e hierarquia visual mais forte.</p>
+                      <CardIcon type="route" />
+                      <p>Entenda melhor a entrada no processo e a lógica das primeiras etapas.</p>
                     </div>
                     <div className="feature-row">
-                      <span>✦</span>
-                      <p>Botão principal valorizado para aumentar a ação do visitante.</p>
+                      <CardIcon type="shield" />
+                      <p>Avance com mais segurança rumo à sua primeira habilitação.</p>
                     </div>
                   </div>
 
@@ -252,7 +295,10 @@ export default function SalesPage() {
       <section className="mx-auto max-w-7xl px-6 py-6">
         <div className="grid gap-5 md:grid-cols-3">
           {infoCards.map((item, i) => (
-            <div key={i} className="glass-card">
+            <div key={i} className="glass-card fade-up" style={{ animationDelay: `${i * 120}ms` }}>
+              <div className="mb-4">
+                <CardIcon type={i === 0 ? "doc" : i === 1 ? "route" : "shield"} />
+              </div>
               <h3 className="text-lg font-bold text-white">{item.title}</h3>
               <p className="mt-3 text-sm leading-7 text-slate-300">{item.text}</p>
             </div>
@@ -261,23 +307,27 @@ export default function SalesPage() {
       </section>
 
       <section id="beneficios" className="mx-auto max-w-7xl px-6 py-20">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl text-center fade-up">
           <span className="badge-premium">
-            Nova estética, mais valor visual
+            O começo certo faz diferença no processo
           </span>
           <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-            Cores mais fortes, contraste melhor e sensação de produto premium
+            Entender melhor a CNH desde o início ajuda você a avançar com mais confiança
           </h2>
           <p className="mt-5 text-base leading-8 text-slate-300">
-            O site agora usa uma base escura elegante com detalhes em azul elétrico e cyan luminoso para criar uma identidade muito mais moderna. Esse tipo de composição passa mais força visual, melhora a percepção de qualidade e deixa a página com aparência de plataforma digital de alto nível.
+            Quem deseja tirar a carteira de motorista normalmente quer rapidez, clareza e menos confusão. Por isso, o mais importante no começo é ter uma visão organizada do processo, saber quais dados preparar e entender que a jornada para a habilitação acontece por etapas.
           </p>
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
           {benefits.map((b, i) => (
-            <div key={i} className="premium-card group">
+            <div
+              key={i}
+              className="premium-card group fade-up"
+              style={{ animationDelay: `${i * 90}ms` }}
+            >
               <div className="icon-box">
-                {i === 0 ? "🧭" : i === 1 ? "📘" : i === 2 ? "💬" : i === 3 ? "📝" : i === 4 ? "🔒" : "🚗"}
+                <CardIcon type={i % 3 === 0 ? "doc" : i % 3 === 1 ? "route" : "shield"} />
               </div>
               <h3 className="mt-5 text-lg font-bold text-white">{b.title}</h3>
               <p className="mt-3 text-sm leading-7 text-slate-300">{b.desc}</p>
@@ -288,32 +338,26 @@ export default function SalesPage() {
 
       <section className="mx-auto max-w-7xl px-6 py-4">
         <div className="showcase-strip">
-          <div className="showcase-item">
-            <span>Interface mais premium</span>
-          </div>
-          <div className="showcase-item">
-            <span>Foco total em conversão</span>
-          </div>
-          <div className="showcase-item">
-            <span>Visual de app em formato de site</span>
-          </div>
+          <div className="showcase-item">Cadastro inicial</div>
+          <div className="showcase-item">Etapas da habilitação</div>
+          <div className="showcase-item">Primeira CNH</div>
         </div>
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20">
         <div className="grid gap-10 md:grid-cols-[.95fr_1.05fr] md:items-center">
-          <div>
+          <div className="fade-up">
             <span className="badge-premium">
-              Experiência visual mais refinada
+              O início da CNH exige atenção e direção certa
             </span>
             <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-              Um site com cara de produto moderno transmite mais confiança
+              Dar entrada da forma certa pode deixar sua caminhada mais simples
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-300">
-              O visual foi trabalhado para parecer uma interface atual, com camadas, profundidade, blur sutil, sombras suaves e contrastes mais sofisticados. Isso faz a página parecer menos genérica e mais próxima de uma solução digital de verdade.
+              Quando a pessoa entende melhor como funciona o processo da CNH desde o começo, ela tende a seguir com mais segurança. Isso ajuda a reduzir dúvidas, melhora a preparação inicial e deixa mais claro o que precisa ser feito para avançar rumo à carteira de motorista.
             </p>
             <p className="mt-4 text-base leading-8 text-slate-400">
-              A combinação entre fundo escuro, luzes difusas, botões com gradiente e blocos translúcidos cria uma estética mais valiosa e mais profissional. Em vez de um site simples, o visitante passa a sentir que entrou em uma experiência mais bem construída.
+              A primeira habilitação representa liberdade, mobilidade e novas possibilidades. Por isso, começar com uma estrutura mais organizada e com as informações corretas é um passo importante para quem quer seguir com mais firmeza.
             </p>
 
             <button
@@ -325,22 +369,31 @@ export default function SalesPage() {
           </div>
 
           <div className="grid gap-5">
-            <div className="glass-feature">
-              <h3 className="text-lg font-bold text-white">Paleta mais nobre</h3>
+            <div className="glass-feature fade-up">
+              <div className="mb-4">
+                <CardIcon type="doc" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Organize seus dados</h3>
               <p className="mt-3 text-sm leading-7 text-slate-300">
-                Azul profundo, cyan premium, branco suave e transparências elegantes substituem o visual simples anterior.
+                Ter seus dados iniciais bem preenchidos ajuda a começar com mais objetividade.
               </p>
             </div>
-            <div className="glass-feature">
-              <h3 className="text-lg font-bold text-white">Mais presença visual</h3>
+            <div className="glass-feature fade-up" style={{ animationDelay: "120ms" }}>
+              <div className="mb-4">
+                <CardIcon type="route" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Entenda o caminho</h3>
               <p className="mt-3 text-sm leading-7 text-slate-300">
-                Os blocos agora têm mais impacto visual, mais espaçamento e hierarquia muito melhor entre títulos, textos e ações.
+                O processo da CNH acontece por fases, e entender isso logo no início faz diferença.
               </p>
             </div>
-            <div className="glass-feature">
-              <h3 className="text-lg font-bold text-white">Estilo app-like</h3>
+            <div className="glass-feature fade-up" style={{ animationDelay: "220ms" }}>
+              <div className="mb-4">
+                <CardIcon type="shield" />
+              </div>
+              <h3 className="text-lg font-bold text-white">Comece com mais segurança</h3>
               <p className="mt-3 text-sm leading-7 text-slate-300">
-                A sensação final é de uma landing page moderna inspirada em dashboards e plataformas premium.
+                Um começo bem direcionado ajuda você a seguir com mais clareza rumo à habilitação.
               </p>
             </div>
           </div>
@@ -348,21 +401,21 @@ export default function SalesPage() {
       </section>
 
       <section id="como-funciona" className="mx-auto max-w-7xl px-6 py-20">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl text-center fade-up">
           <span className="badge-premium">
             Etapas iniciais
           </span>
           <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-            Como funciona o ingresso nesta página
+            Como funciona o ingresso nesta etapa da CNH
           </h2>
           <p className="mt-5 text-base leading-8 text-slate-300">
-            A proposta continua simples, mas agora apresentada com uma experiência visual muito mais refinada. O usuário entende melhor o fluxo, sente mais confiança e tem mais clareza para avançar.
+            O objetivo é simples: registrar seu interesse, organizar suas informações iniciais e facilitar seu avanço para as próximas fases da primeira habilitação.
           </p>
         </div>
 
         <div className="mt-12 grid gap-6 md:grid-cols-3">
-          {steps.map((s) => (
-            <div key={s.n} className="step-card">
+          {steps.map((s, idx) => (
+            <div key={s.n} className="step-card fade-up" style={{ animationDelay: `${idx * 100}ms` }}>
               <div className="step-number">{s.n}</div>
               <h3 className="mt-5 text-lg font-bold text-white">{s.title}</h3>
               <p className="mt-3 text-sm leading-7 text-slate-300">{s.desc}</p>
@@ -372,16 +425,16 @@ export default function SalesPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="cta-shell">
+        <div className="cta-shell fade-up">
           <div className="mx-auto max-w-3xl text-center">
             <span className="badge-light">
-              Ingresso com mais clareza e mais impacto visual
+              Sua primeira habilitação começa com um bom primeiro passo
             </span>
             <h2 className="mt-4 text-3xl font-black text-white md:text-5xl">
-              Quem quer começar a CNH merece uma página mais forte, bonita e convincente
+              Quem quer tirar a CNH precisa começar com clareza e direção
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-300">
-              Esta nova direção visual melhora a estética, aumenta a sensação de valor e deixa o site muito mais próximo do padrão de produtos digitais premium. Tudo isso sem complicar a navegação e mantendo a ação principal muito clara.
+              Preencher seus dados e iniciar corretamente o contato é uma forma prática de dar entrada no processo com mais organização. O começo importa, e uma entrada mais objetiva pode facilitar sua caminhada até a carteira de motorista.
             </p>
 
             <button
@@ -395,7 +448,7 @@ export default function SalesPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="mx-auto max-w-3xl text-center fade-up">
           <span className="badge-premium">
             Perguntas frequentes
           </span>
@@ -418,19 +471,25 @@ export default function SalesPage() {
       </section>
 
       <section className="mx-auto max-w-7xl px-6 pb-20">
-        <div className="footer-cta">
-          <div className="mx-auto flex h-20 w-28 items-center justify-center rounded-[28px] border border-cyan-300/20 bg-white/[0.08] backdrop-blur">
-            <div className="flex flex-col items-center">
-              <div className="text-2xl">🪪</div>
-              <span className="text-sm font-black tracking-[0.25em] text-cyan-300">CNH</span>
+        <div className="footer-cta fade-up">
+          <div className="cnh-card-visual cnh-card-visual-small">
+            <div className="cnh-card-head">
+              <span className="cnh-card-chip" />
+              <span className="cnh-card-title">CNH</span>
+            </div>
+
+            <div className="cnh-card-lines">
+              <span />
+              <span />
+              <span className="w-sm" />
             </div>
           </div>
 
           <h2 className="mx-auto mt-8 max-w-3xl text-3xl font-black text-white md:text-5xl">
-            Pronto para entrar no processo da sua CNH com uma experiência mais premium?
+            Pronto para começar sua jornada rumo à CNH?
           </h2>
           <p className="mx-auto mt-5 max-w-3xl text-base leading-8 text-slate-300">
-            Preencha o formulário e garanta seu acesso. A página agora está mais elegante, mais tecnológica e muito mais alinhada com um visual moderno de produto digital.
+            Preencha o formulário e registre seu interesse para iniciar sua primeira habilitação com mais clareza e organização.
           </p>
 
           <button
@@ -450,7 +509,7 @@ export default function SalesPage() {
             </div>
             <div>
               <p className="text-sm font-semibold text-white">Ingresso CNH</p>
-              <p className="text-xs text-slate-400">Página informativa de entrada</p>
+              <p className="text-xs text-slate-400">Primeira habilitação</p>
             </div>
           </div>
 
@@ -637,6 +696,7 @@ export default function SalesPage() {
           border-radius: 999px;
           filter: blur(80px);
           pointer-events: none;
+          animation: drift 12s ease-in-out infinite alternate;
         }
 
         .hero-orb-1 {
@@ -653,6 +713,7 @@ export default function SalesPage() {
           top: 10%;
           right: -120px;
           background: rgba(59, 130, 246, 0.14);
+          animation-duration: 14s;
         }
 
         .hero-grid {
@@ -756,6 +817,12 @@ export default function SalesPage() {
           padding: 0.95rem 1rem;
           color: #d5e4f3;
           backdrop-filter: blur(10px);
+          transition: transform .18s ease, border-color .18s ease;
+        }
+
+        .stat-chip:hover {
+          transform: translateY(-2px);
+          border-color: rgba(103, 232, 249, 0.2);
         }
 
         .stat-dot {
@@ -809,6 +876,64 @@ export default function SalesPage() {
           box-shadow: 0 0 14px rgba(59, 130, 246, 0.4);
         }
 
+        .cnh-card-visual {
+          margin: 2rem auto 0;
+          width: 100%;
+          max-width: 290px;
+          border-radius: 24px;
+          padding: 1.2rem;
+          border: 1px solid rgba(103, 232, 249, 0.18);
+          background:
+            linear-gradient(135deg, rgba(103,232,249,0.12), rgba(59,130,246,0.08)),
+            rgba(255,255,255,0.04);
+          box-shadow:
+            inset 0 1px 0 rgba(255,255,255,0.08),
+            0 14px 36px rgba(0,0,0,0.18);
+        }
+
+        .cnh-card-visual-small {
+          max-width: 210px;
+          margin-top: 0;
+        }
+
+        .cnh-card-head {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+
+        .cnh-card-chip {
+          width: 42px;
+          height: 28px;
+          border-radius: 10px;
+          background: linear-gradient(135deg, #67e8f9, #3b82f6);
+          box-shadow: 0 8px 20px rgba(59,130,246,0.25);
+        }
+
+        .cnh-card-title {
+          font-size: 1rem;
+          font-weight: 900;
+          letter-spacing: 0.26em;
+          color: #baf6ff;
+        }
+
+        .cnh-card-lines {
+          margin-top: 1rem;
+          display: grid;
+          gap: 0.7rem;
+        }
+
+        .cnh-card-lines span {
+          display: block;
+          height: 10px;
+          border-radius: 999px;
+          background: rgba(255,255,255,0.12);
+        }
+
+        .cnh-card-lines .w-sm {
+          width: 58%;
+        }
+
         .feature-row {
           display: flex;
           align-items: flex-start;
@@ -818,13 +943,12 @@ export default function SalesPage() {
           background: rgba(255,255,255,0.04);
           padding: 0.9rem 1rem;
           color: #d6e5f2;
+          transition: transform .18s ease, border-color .18s ease;
         }
 
-        .feature-row span {
-          color: #67e8f9;
-          font-size: 1rem;
-          line-height: 1;
-          margin-top: 0.2rem;
+        .feature-row:hover {
+          transform: translateY(-2px);
+          border-color: rgba(103, 232, 249, 0.16);
         }
 
         .glass-card {
@@ -834,6 +958,12 @@ export default function SalesPage() {
           padding: 1.5rem;
           box-shadow: 0 14px 34px rgba(0,0,0,0.18);
           backdrop-filter: blur(14px);
+          transition: transform .18s ease, border-color .18s ease;
+        }
+
+        .glass-card:hover {
+          transform: translateY(-3px);
+          border-color: rgba(103,232,249,0.16);
         }
 
         .premium-card {
@@ -856,14 +986,28 @@ export default function SalesPage() {
         .icon-box {
           display: flex;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-start;
           width: 3.25rem;
           height: 3.25rem;
+        }
+
+        .icon-shell {
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          width: 3.1rem;
+          height: 3.1rem;
           border-radius: 1rem;
           border: 1px solid rgba(103,232,249,0.16);
           background: linear-gradient(180deg, rgba(34,211,238,0.12), rgba(59,130,246,0.08));
-          font-size: 1.35rem;
+          color: #8ce8ff;
           box-shadow: inset 0 1px 0 rgba(255,255,255,0.06);
+        }
+
+        .icon-svg {
+          width: 1.3rem;
+          height: 1.3rem;
+          display: block;
         }
 
         .showcase-strip {
@@ -881,6 +1025,12 @@ export default function SalesPage() {
           color: #dbe9f5;
           font-weight: 600;
           backdrop-filter: blur(12px);
+          transition: transform .18s ease, border-color .18s ease;
+        }
+
+        .showcase-item:hover {
+          transform: translateY(-2px);
+          border-color: rgba(103,232,249,0.18);
         }
 
         .glass-feature {
@@ -890,6 +1040,12 @@ export default function SalesPage() {
           padding: 1.45rem;
           box-shadow: 0 16px 42px rgba(0,0,0,0.18);
           backdrop-filter: blur(12px);
+          transition: transform .18s ease, border-color .18s ease;
+        }
+
+        .glass-feature:hover {
+          transform: translateY(-3px);
+          border-color: rgba(103,232,249,0.16);
         }
 
         .step-card {
@@ -899,6 +1055,12 @@ export default function SalesPage() {
           padding: 1.7rem;
           box-shadow: 0 16px 46px rgba(0,0,0,0.18);
           backdrop-filter: blur(14px);
+          transition: transform .18s ease, border-color .18s ease;
+        }
+
+        .step-card:hover {
+          transform: translateY(-3px);
+          border-color: rgba(103,232,249,0.18);
         }
 
         .step-number {
@@ -982,6 +1144,7 @@ export default function SalesPage() {
           background:
             linear-gradient(180deg, rgba(10,16,35,0.96), rgba(6,11,24,0.97));
           backdrop-filter: blur(18px);
+          animation: modalIn .22s ease-out;
         }
 
         .close-btn {
@@ -1067,6 +1230,59 @@ export default function SalesPage() {
 
         .cnh-mark-sm span {
           font-size: 0.78rem;
+        }
+
+        .fade-up {
+          opacity: 0;
+          transform: translateY(16px);
+          animation: fadeUp .7s ease forwards;
+        }
+
+        .fade-up-delay {
+          opacity: 0;
+          transform: translateY(20px);
+          animation: fadeUp .8s ease forwards;
+          animation-delay: 120ms;
+        }
+
+        .floating-soft {
+          animation: floatingSoft 6s ease-in-out infinite;
+        }
+
+        @keyframes fadeUp {
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @keyframes floatingSoft {
+          0%, 100% {
+            transform: translateY(0px);
+          }
+          50% {
+            transform: translateY(-6px);
+          }
+        }
+
+        @keyframes drift {
+          0% {
+            transform: translate3d(0, 0, 0) scale(1);
+          }
+          100% {
+            transform: translate3d(12px, -10px, 0) scale(1.05);
+          }
+        }
+
+        @keyframes modalIn {
+          from {
+            opacity: 0;
+            transform: translateY(12px) scale(0.985);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0) scale(1);
+          }
         }
 
         @media (max-width: 768px) {
